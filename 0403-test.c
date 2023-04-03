@@ -30,5 +30,5 @@ int main(){
         scanf("%d", &n);
         drawTriangle(n);
     }
-  return 0;
+    return 0;
 }
