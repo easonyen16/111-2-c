@@ -73,7 +73,7 @@ int main() {
             longword[i]='\0';
           }
           for(int i=0;i<len;i++){
-            longword[i]=token[i];
+            longword[i]=toLower(token[i]);
           }
         }
         FirstWord = 0;
