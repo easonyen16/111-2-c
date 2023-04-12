@@ -63,6 +63,8 @@ int main() {
       if (len > 0) {
         if(FirstWord || !isLowerToken(token, len)) {
           putCapital(token, len);
+        }else if(c=='-'){
+          putCapital(token, len);
         }else {
           putNormal(token, len);
         }
