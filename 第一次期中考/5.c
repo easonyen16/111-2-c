@@ -69,6 +69,9 @@ int main() {
         words++;
         if(len>length){
           length=len;
+          for(int i=0;i<64;i++){
+            longword[i]='\0';
+          }
           for(int i=0;i<len;i++){
             longword[i]=token[i];
           }
